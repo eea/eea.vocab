@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<import-steps>
+ <import-step id="setup_at_vocabularies"
+              version="20090806-01"
+              handler="eea.vocab.setuphandlers.setupATVocabularies"
+              title="eea.vocab: Setup AT Vocabularies">
+    Install AT Vocabularies
+ </import-step>
+</import-steps>

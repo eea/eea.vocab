@@ -1,6 +1,17 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
     xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="eea.vocab">
+
+  <five:registerPackage package="." />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="eea.vocab"
+      directory="profiles/default"
+      description="Extension profile for eea.vocab"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
 
 </configure>
