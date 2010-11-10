@@ -3,6 +3,7 @@ Changelog
 
 0.2-dev - (Unreleased)
 ----------------
+* Bug fix: Import eea.vocab profile only if current profile selected [voineali]
 
 0.1 - 2010-04-13
 ----------------
