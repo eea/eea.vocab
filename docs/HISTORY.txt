@@ -1,8 +1,8 @@
 Changelog
 =========
 
-0.3-dev - (unreleased)
-----------------------
+0.3 - (2010-11-10)
+------------------
 * Fix package version number [voineali]
 
 0.2 - (2010-11-10)
