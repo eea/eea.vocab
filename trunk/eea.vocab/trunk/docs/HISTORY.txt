@@ -1,6 +1,9 @@
 Changelog
 =========
 
+0.4-dev - (unreleased)
+----------------------
+
 0.3 - (2010-11-10)
 ------------------
 * Bug fix: Take version from version.txt [voineali]
