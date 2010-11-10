@@ -1,0 +1,15 @@
+Changelog
+=========
+
+0.3 - (2010-11-10)
+------------------
+* Bug fix: Take version from version.txt [voineali]
+
+0.2 - (2010-11-10)
+------------------
+* Bug fix: Import eea.vocab profile only if current profile selected [voineali]
+
+0.1 - 2010-04-13
+----------------
+* Initial release
+
