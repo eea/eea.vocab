@@ -1,14 +1,18 @@
+""" EEA Vocab Installer
+"""
 from setuptools import setup, find_packages
 import os
+from os.path import join
 
-version = '0.2svn'
+NAME = 'eea.vocab'
+PATH = NAME.split('.') + ['version.txt']
+VERSION = open(join(*PATH)).read().strip()
 
-setup(name='eea.vocab',
-      version=version,
+setup(name=NAME,
+      version=VERSION,
       description="",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
-      # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
