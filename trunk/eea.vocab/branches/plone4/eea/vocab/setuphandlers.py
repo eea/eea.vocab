@@ -15,10 +15,11 @@ def setupATVocabularies(portal):
     atvm = portal.getSite().portal_vocabularies
 
     for vkey in vkeys:
-        logger.info("Adding vocabulary %s" % vkey)
-
-        if hasattr(atvm, vkey):
+        if vkey in atvm.objectIds():
+            logger.info("Skipped adding %s vocabulary, already exists" % vkey)
             continue
+
+        logger.info("Adding vocabulary %s" % vkey)
 
         atvm.invokeFactory('SimpleVocabulary', vkey)
         vocab = atvm[vkey]
