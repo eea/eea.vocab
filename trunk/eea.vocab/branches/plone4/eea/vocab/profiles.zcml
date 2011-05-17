@@ -1,0 +1,19 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+           i18n_domain="eea">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="EEA Vocab"
+      directory="profiles/default"
+      description="Extension profile for eea.vocab"
+      provides="Products.GenericSetup.interfaces.EXTENSION" />
+
+  <genericsetup:importStep
+        name="eea-vocab-various"
+        title="EEA Vocab setup"
+        description="Various setup for eea.vocab"
+        handler="eea.vocab.setuphandlers.setupATVocabularies">
+  </genericsetup:importStep>
+
+</configure>

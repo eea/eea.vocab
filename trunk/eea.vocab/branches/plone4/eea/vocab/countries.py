@@ -1,6 +1,12 @@
+""" Countries
+"""
+
 # Geographical coverage vocabulary
 COUNTRIES_DICTIONARY_ID = 'european_countries'
+
 def getCountriesDictionary():
+    """ Gen countries dictionary
+    """
     res = {}
 
     #european countries
@@ -86,7 +92,8 @@ EU27 = {('at', 'at'): {},
 }
 
 def getCountries():
-    """ return European countries """
+    """ Return European countries
+    """
     # In case we need all countries:
     #from Products.PloneLanguageTool.availablelanguages import getCountries
     #return getCountries()

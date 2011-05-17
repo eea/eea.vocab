@@ -1,20 +1,21 @@
 """ Setup various
 """
-def setupATVocabularies(portal):
-    """ Installs all AT-based Vocabularies """
+from eea.vocab.atvocabs import vocabs
+import logging
 
-    # only run this step if we are in eea.vocab profile
+logger = logging.getLogger('eea.vocab.setuphandlers')
+
+def setupATVocabularies(portal):
+    """ Installs all AT-based Vocabularies
+    """
     if portal.readDataFile('eea.vocab.txt') is None:
         return
-
-    from eea.vocab.atvocabs import vocabs
 
     vkeys = vocabs.keys()
     atvm = portal.getSite().portal_vocabularies
 
     for vkey in vkeys:
-
-        print "adding vocabulary %s" % vkey
+        logger.info("Adding vocabulary %s" % vkey)
 
         if hasattr(atvm, vkey):
             continue
