@@ -10,6 +10,8 @@ OPTIONFLAGS = (doctest.REPORT_ONLY_FIRST_FAILURE |
                doctest.NORMALIZE_WHITESPACE)
 
 def test_suite():
+    """ Test suite
+    """
     return unittest.TestSuite((
             FunctionalDocFileSuite('README.txt',
                   optionflags=OPTIONFLAGS,
