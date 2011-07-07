@@ -1,20 +1,32 @@
 Changelog
 =========
-[Alexandru Ghica - alec.ghica@eaudeweb.ro]
-[Alin Voinea - alin.voinea@eaudeweb.ro]
+
 
 4.0-dev - (unreleased)
 ----------------------
- * Feature: Plone 4.0.4 compatible release [ghicaale #4301]
+
+* Feature: Added upgrade steps
+  [voineali #4392]
+
+* Feature: Plone 4.x compatible release
+  [ghicaale #4301]
+
 
 0.3 - (2010-11-10)
 ------------------
- * Bug fix: Take version from version.txt [voineali]
+
+* Bug fix: Take version from version.txt
+  [voineali]
+
 
 0.2 - (2010-11-10)
 ------------------
- * Bug fix: Import eea.vocab profile only if current profile selected [voineali]
 
-0.1 - 2010-04-13
-----------------
- * Initial release
+* Bug fix: Import eea.vocab profile only if current profile selected
+  [voineali]
+
+
+0.1 - (2010-04-13)
+------------------
+
+* Initial release
