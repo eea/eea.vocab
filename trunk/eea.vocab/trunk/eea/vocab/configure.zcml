@@ -7,4 +7,9 @@
   <include file="profiles.zcml" />
   <include package=".upgrades" />
 
+  <utility
+    factory=".mimetypes.MimeTypesVocabulary"
+    name="MIME types (eea.vocab.mimetypes.MimeTypesVocabulary)"
+    />
+
 </configure>
