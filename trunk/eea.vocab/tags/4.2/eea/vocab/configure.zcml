@@ -1,0 +1,15 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+           i18n_domain="eea">
+
+  <include package="Products.ATVocabularyManager" />
+
+  <include file="profiles.zcml" />
+  <include package=".upgrades" />
+
+  <utility
+    factory=".mimetypes.MimeTypesVocabulary"
+    name="MIME types (eea.vocab.mimetypes.MimeTypesVocabulary)"
+    />
+
+</configure>
