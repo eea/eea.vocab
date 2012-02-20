@@ -3,6 +3,8 @@ Changelog
 
 4.4-dev - (unreleased)
 ----------------------
+* Bug fix: Moved 'Temporal coverage' vocabulary from eea.dataservice
+  [voineali]
 
 4.3 - (2012-01-03)
 ------------------

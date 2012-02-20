@@ -12,4 +12,9 @@
     name="MIME types (eea.vocab.mimetypes.MimeTypesVocabulary)"
     />
 
+  <utility
+    factory=".years.DatasetYears"
+    name="Temporal coverage"
+    />
+
 </configure>
