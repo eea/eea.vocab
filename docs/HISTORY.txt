@@ -1,6 +1,9 @@
 Changelog
 =========
 
+4.5-dev - (unreleased)
+----------------------
+
 4.4 - (2012-03-05)
 ------------------
 * Bug fix: Moved 'Temporal coverage' vocabulary from eea.dataservice
