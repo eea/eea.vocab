@@ -16,10 +16,10 @@ def setupATVocabularies(portal):
 
     for vkey in vkeys:
         if vkey in atvm.objectIds():
-            logger.info("Skipped adding %s vocabulary, already exists" % vkey)
+            logger.info("Skipped adding %s vocabulary, already exists", vkey)
             continue
 
-        logger.info("Adding vocabulary %s" % vkey)
+        logger.info("Adding vocabulary %s", vkey)
 
         atvm.invokeFactory('SimpleVocabulary', vkey)
         vocab = atvm[vkey]
