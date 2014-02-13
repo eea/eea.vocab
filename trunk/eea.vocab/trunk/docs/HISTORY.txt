@@ -1,8 +1,8 @@
 Changelog
 =========
 
-4.6-dev - (unreleased)
-----------------------
+4.6 - (2014-02-13)
+------------------
 * Change: bumped upper range of temporalCoverage vocabulary to 2100
   [ichimdav]
 
