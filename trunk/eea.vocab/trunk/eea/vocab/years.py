@@ -12,5 +12,5 @@ class DatasetYears(object):
 
     def __call__(self, context=None):
         terms = [SimpleTerm(str(key), str(key), str(key))
-                 for key in reversed(range(1750, 2099))]
+                 for key in reversed(range(1750, 2101))]
         return SimpleVocabulary(terms)
