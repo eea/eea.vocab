@@ -1,9 +1,11 @@
 """ Setup various
 """
-from eea.vocab.atvocabs import vocabs
 import logging
 
+from eea.vocab.atvocabs import vocabs
+
 logger = logging.getLogger('eea.vocab.setuphandlers')
+
 
 def setupATVocabularies(portal):
     """ Installs all AT-based Vocabularies
