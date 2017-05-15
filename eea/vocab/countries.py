@@ -150,4 +150,3 @@ def getCountries():
         'tr':'tr',
         'ua':'ua',
         }
-
