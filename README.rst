@@ -1,10 +1,8 @@
 =========
 EEA Vocab
 =========
-.. image:: http://ci.eionet.europa.eu/job/eea.vocab-www/badge/icon
-  :target: http://ci.eionet.europa.eu/job/eea.vocab-www/lastBuild
-.. image:: http://ci.eionet.europa.eu/job/eea.vocab-plone4/badge/icon
-  :target: http://ci.eionet.europa.eu/job/eea.vocab-plone4/lastBuild
+.. image:: http://ci.eionet.europa.eu/job/eea/job/eea.vocab/job/master/badge/icon
+  :target: http://ci.eionet.europa.eu/job/eea/job/eea.vocab/job/master/display/redirect
 
 Contents
 ========
