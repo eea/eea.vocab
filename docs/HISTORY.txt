@@ -1,6 +1,11 @@
 Changelog
 =========
 
+5.5 - (2019-07-19)
+---------------------
+* Change: Updated vocabulary value for czechia
+  [iulianpetchesi refs #106742]
+
 5.4 - (2019-07-16)
 ---------------------
 * Change: Updated vocabulary value for macedonia
